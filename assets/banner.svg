@@ -1,0 +1,76 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="starnotes-xj banner">
+  <title>星记 · starnotes-xj</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0a0e23"/>
+      <stop offset="55%" stop-color="#0d2b3a"/>
+      <stop offset="100%" stop-color="#123c47"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#59e6cf" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#59e6cf" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#59e6cf" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.35" r="0.55">
+      <stop offset="0%" stop-color="#1fd1c1" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#1fd1c1" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#7fe9db" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <clipPath id="clip">
+      <rect width="1200" height="260" rx="20"/>
+    </clipPath>
+    <style>
+      .title { font-family: 'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif; font-weight: 700; }
+      .mono  { font-family: 'Cascadia Code','Consolas','SFMono-Regular',monospace; }
+      .sub   { font-family: 'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif; }
+      .blink { animation: blink 1.4s step-end infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .pulse { animation: pulse 3.2s ease-in-out infinite; transform-origin: 1000px 90px; }
+      @keyframes pulse { 0%,100% { opacity: 0.55; } 50% { opacity: 1; } }
+      .drift { animation: drift 6s ease-in-out infinite; }
+      @keyframes drift { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="260" fill="url(#bg)"/>
+    <rect width="1200" height="260" fill="url(#grid)"/>
+    <rect width="1200" height="260" fill="url(#glow)"/>
+
+    <!-- 装饰：右侧六边形护盾轮廓，呼应信息安全主题 -->
+    <g class="drift" opacity="0.85">
+      <path d="M1000 34 L1058 66 L1058 130 L1000 162 L942 130 L942 66 Z"
+            fill="none" stroke="#4fd8c9" stroke-width="1.6" stroke-opacity="0.55"/>
+      <path d="M1000 56 L1038 78 L1038 118 L1000 140 L962 118 L962 78 Z"
+            fill="none" stroke="#4fd8c9" stroke-width="1.2" stroke-opacity="0.35"/>
+      <path d="M985 96 l11 11 22 -24" fill="none" stroke="#8ff3e4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g class="pulse">
+      <circle cx="1000" cy="90" r="3" fill="#8ff3e4"/>
+    </g>
+    <circle cx="1110" cy="60" r="2" fill="#7fe9db" opacity="0.6"/>
+    <circle cx="1130" cy="150" r="2.4" fill="#7fe9db" opacity="0.5"/>
+    <circle cx="880" cy="200" r="2" fill="#7fe9db" opacity="0.45"/>
+
+    <!-- 顶部终端提示条 -->
+    <text x="70" y="58" class="mono" font-size="16" fill="#6be2cf">
+      <tspan fill="#4fd8c9">$</tspan> whoami<tspan class="blink">_</tspan>
+    </text>
+
+    <!-- 主标题 -->
+    <text x="66" y="140" class="title" font-size="64" fill="#eafffb" letter-spacing="2">星记</text>
+    <text x="272" y="140" class="mono" font-size="30" fill="#4fd8c9" opacity="0.9">/ starnotes-xj</text>
+
+    <!-- 副标题 -->
+    <text x="70" y="180" class="sub" font-size="19" fill="#a9d8d1">
+      信息安全 · CTF Player · 国密算法竞赛 · 独立开发者
+    </text>
+    <text x="70" y="210" class="sub" font-size="14" fill="#5f8b86">
+      喧闹任其喧闹，自有我自为之，我自风情万种，与世无争。
+    </text>
+
+    <rect x="0" y="257" width="1200" height="2" fill="url(#scan)"/>
+  </g>
+</svg>
