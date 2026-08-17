@@ -63,12 +63,14 @@
 
 | 项目 | 说明 | 技术栈 |
 | --- | --- | --- |
-| [**FaceWinUnlock-Tauri**](https://github.com/starnotes-xj/FaceWinUnlock-Tauri) ⭐ 15 | 基于 Tauri 的 Windows 人脸识别解锁增强，自定义 Credential Provider 注入登录界面 | Rust · Vue3 · OpenCV |
-| [**wecomdl**](https://github.com/starnotes-xj/wecomdl) | 企业微信直播回放下载辅助工具 | Go |
-| [**BIGC_CTF_Writeups**](https://github.com/starnotes-xj/BIGC_CTF_Writeups) | CTF 比赛 writeup 整理 | Python |
-| [**Shellcode-Executor**](https://github.com/starnotes-xj/Shellcode-Executor) | Shellcode 加载执行工具 | Go |
-| [**traymond**](https://github.com/starnotes-xj/traymond) | 窗口最小化到系统托盘的小工具 | C++ |
-| [**Fuck-BIGC-JJFZ**](https://github.com/starnotes-xj/Fuck-BIGC-JJFZ) ⭐ 3 | 北京印刷学院积极分子刷课脚本 | Java |
+| [**FaceWinUnlock-Tauri**](https://github.com/starnotes-xj/FaceWinUnlock-Tauri) ![stars](https://img.shields.io/github/stars/starnotes-xj/FaceWinUnlock-Tauri?style=flat-square&color=4fd8c9) | 基于 Tauri 的 Windows 人脸识别解锁增强，自定义 Credential Provider 注入登录界面 | Rust · Vue3 · OpenCV |
+| [**sage-ide-support**](https://github.com/starnotes-xj/sage-ide-support) ![stars](https://img.shields.io/github/stars/starnotes-xj/sage-ide-support?style=flat-square&color=4fd8c9) | PyCharm 里 `.sage` 文件的一等支持：Sage 文件类型、生成元语法糖解析、类型与运行配置 | Kotlin |
+| [**sage-pycharm-stubgen**](https://github.com/starnotes-xj/sage-pycharm-stubgen) ![stars](https://img.shields.io/github/stars/starnotes-xj/sage-pycharm-stubgen?style=flat-square&color=4fd8c9) | SageMath 类型存根生成器：补全/类型/中文文档的数据层 | Python |
+| [**SurviveBIGCManual**](https://github.com/starnotes-xj/SurviveBIGCManual) ![stars](https://img.shields.io/github/stars/starnotes-xj/SurviveBIGCManual?style=flat-square&color=4fd8c9) | 北京印刷学院信息安全专业生存手册 · 基于 MkDocs Material 构建 | MkDocs |
+| [**traymond**](https://github.com/starnotes-xj/traymond) ![stars](https://img.shields.io/github/stars/starnotes-xj/traymond?style=flat-square&color=4fd8c9) | 窗口最小化到系统托盘的小工具 | C++ |
+| [**Shellcode-Executor**](https://github.com/starnotes-xj/Shellcode-Executor) ![stars](https://img.shields.io/github/stars/starnotes-xj/Shellcode-Executor?style=flat-square&color=4fd8c9) | Shellcode 加载执行工具 | Go |
+
+> 以上即主页 PIN 的六个仓库；⭐ 由 shields.io 实时渲染，始终与 GitHub 星数同步。
 
 <br>
 
